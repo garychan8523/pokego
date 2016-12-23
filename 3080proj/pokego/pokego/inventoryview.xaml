@@ -29,11 +29,16 @@
             <Canvas.Background>
                 <ImageBrush ImageSource="Resources/dialogbg.png"/>
             </Canvas.Background>
+            <TextBlock x:Name="txtOptionInfo" Canvas.Left="31" Canvas.Top="60" Width="400" Foreground="White" FontSize="25" FontFamily="Global Monospace"><Run Text=""/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="txtOptionPowerup" Canvas.Left="253" Canvas.Top="130" Width="178" Foreground="White" FontSize="20" FontFamily="Global Monospace" Height="26" MouseLeftButtonDown="txtOptionPowerup_MouseLeftButtonDown"><Run Text="[Power up (-1)]"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="txtOptionHeal" Canvas.Left="253" Canvas.Top="156" Width="178" Foreground="White" FontSize="20" FontFamily="Global Monospace" Height="26" MouseLeftButtonDown="txtOptionHeal_MouseLeftButtonDown"><Run Text="[Heal     (-3)]"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="txtOptionSell" Canvas.Left="253" Canvas.Top="187" Width="178" Foreground="White" FontSize="20" FontFamily="Global Monospace" Height="26" MouseLeftButtonDown="txtOptionSell_MouseLeftButtonDown"><Run Text="[Sell     (+3)]"/><LineBreak/><Run/></TextBlock>
         </Canvas>
         <Canvas x:Name="cvlistboxDrawing" HorizontalAlignment="Center" Height="334" Width="482" Margin="7,440,505,-2" VerticalAlignment="Center" Canvas.Top="50" Opacity="0.8">
             <Canvas.Background>
                 <ImageBrush ImageSource="Resources/dialogbg.png"/>
             </Canvas.Background>
         </Canvas>
+        <ListBox x:Name="lbPokemon" HorizontalAlignment="Left" Height="225" Margin="28,486,0,0" VerticalAlignment="Top" Width="430" IsHitTestVisible="True" Background="#FF50707A" Opacity="0.88" Foreground="White" FontSize="20" FontFamily="Global Monospace" />
     </Grid>
 </Window>

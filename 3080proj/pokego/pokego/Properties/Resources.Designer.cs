@@ -93,9 +93,29 @@ namespace pokego.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bulbasaurbk {
+            get {
+                object obj = ResourceManager.GetObject("Bulbasaurbk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Caterpie {
             get {
                 object obj = ResourceManager.GetObject("Caterpie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Caterpiebk {
+            get {
+                object obj = ResourceManager.GetObject("Caterpiebk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,29 @@ namespace pokego.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Charmanderbk {
+            get {
+                object obj = ResourceManager.GetObject("Charmanderbk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dialogbg {
             get {
                 object obj = ResourceManager.GetObject("dialogbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gymbattlebg {
+            get {
+                object obj = ResourceManager.GetObject("gymbattlebg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,10 +173,44 @@ namespace pokego.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pidgeybk {
+            get {
+                object obj = ResourceManager.GetObject("Pidgeybk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pikachu {
             get {
                 object obj = ResourceManager.GetObject("Pikachu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pikachubk {
+            get {
+                object obj = ResourceManager.GetObject("Pikachubk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 19
+        ///20
+        ///21
+        ///15
+        ///10
+        ///25.
+        /// </summary>
+        internal static string pokeap {
+            get {
+                return ResourceManager.GetString("pokeap", resourceCulture);
             }
         }
         
@@ -161,16 +235,12 @@ namespace pokego.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 19
-        ///20
-        ///21
-        ///15
-        ///10
-        ///25.
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static string pokecp {
+        internal static System.Drawing.Bitmap pokegymbg {
             get {
-                return ResourceManager.GetString("pokecp", resourceCulture);
+                object obj = ResourceManager.GetObject("pokegymbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -302,6 +372,16 @@ namespace pokego.Properties {
         internal static System.Drawing.Bitmap Squirtle {
             get {
                 object obj = ResourceManager.GetObject("Squirtle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squirtlebk {
+            get {
+                object obj = ResourceManager.GetObject("Squirtlebk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

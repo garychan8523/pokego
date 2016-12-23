@@ -58,6 +58,9 @@
       <DependentUpon>catchview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Gymbattle.cs" />
+    <Compile Include="gymview.xaml.cs">
+      <DependentUpon>gymview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="inventoryview.xaml.cs">
       <DependentUpon>inventoryview.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
     <Page Include="catchview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="gymview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,9 +150,6 @@
     <Resource Include="Resources\pokemap.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\pokecp.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\pokehp.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +208,33 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\btn_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pokeap.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pokegymbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gymbattlebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Bulbasaurbk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Caterpiebk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Charmanderbk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Pidgeybk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Pikachubk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Squirtlebk.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

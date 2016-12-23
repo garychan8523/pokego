@@ -23,7 +23,6 @@ C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.exe
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.pdb
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\bin\Debug\pokego.exe
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\bin\Debug\pokego.pdb
-C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.csprojResolveAssemblyReference.cache
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\catchview.baml
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\mainview.baml
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\MainWindow.baml
@@ -41,3 +40,6 @@ C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.Properties.Resou
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.csproj.GenerateResource.Cache
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\inventoryview.baml
 C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\inventoryview.g.cs
+C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\gymview.baml
+C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\gymview.g.cs
+C:\Users\cch015\Desktop\3080proj\pokego\pokego\obj\Debug\pokego.csprojResolveAssemblyReference.cache

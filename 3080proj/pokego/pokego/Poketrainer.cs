@@ -19,11 +19,13 @@ namespace pokego
         {
             this.pokecandy = 10;
             this.gymbadge = 0;
+            //Pokemon newpokemon = new Pokemon(9);
+            //POwnPokemon.Add(newpokemon);
         }
 
         public void powerUpPokemon(int x)
         {
-            //this.POwnPokemon[x].powerUp();
+            this.POwnPokemon[x].powerUp();
             this.pokecandy--;
         }
 
@@ -35,7 +37,7 @@ namespace pokego
 
         public void healPokemon(int x)
         {
-            //this.POwnPokemon[x].Heal();
+            this.POwnPokemon[x].Heal();
             this.pokecandy -= 3;
         }
 

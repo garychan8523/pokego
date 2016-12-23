@@ -136,9 +136,6 @@
   <data name="pokebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pokebg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pokecp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pokecp.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
-  </data>
   <data name="pokehp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pokehp.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
   </data>
@@ -186,5 +183,32 @@
   </data>
   <data name="btn_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokeap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokeap.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="pokegymbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokegymbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gymbattlebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gymbattlebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bulbasaurbk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bulbasaurbk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caterpiebk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caterpiebk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charmanderbk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charmanderbk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pidgeybk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pidgeybk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pikachubk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pikachubk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squirtlebk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squirtlebk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

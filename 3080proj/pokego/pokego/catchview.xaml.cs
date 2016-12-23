@@ -23,9 +23,10 @@ namespace pokego
         private Pokeworld currentWorld;
         private PokeTrainer currentPlayer;
         private Canvas cvspawnarea;
+        private Rectangle targetImage;
+
         private String targetText;
         private String inputText = "";
-        private Rectangle targetImage;
 
         public catchview(PokeTrainer currentPlayer, Pokemon target, Pokeworld currentWorld, Canvas cvspawnarea, Rectangle targetImage)
         {
@@ -138,6 +139,7 @@ namespace pokego
             }
         }
 
+        // logic of typing game, i put here instead of a new class as it's very low-weight.
         char pos = ' ';
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
@@ -151,7 +153,6 @@ namespace pokego
                     inputText += pos.ToString();
                 }
             }
-            //txtTPGinput.Text = e.Key.ToString() + ", " + pos.ToString();
         }
 
         private void txtTPGreturn_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

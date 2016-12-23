@@ -25,9 +25,8 @@
                 <TextBlock x:Name="txtTPGtimer" Canvas.Left="686" Canvas.Top="180" Width="250" Foreground="White" FontSize="25" FontFamily="Global Monospace" Text="5 seconds left" MouseLeftButtonDown="txtOptionCatch_MouseLeftButtonDown" HorizontalAlignment="Center" TextAlignment="Right" Visibility="Collapsed"/>
             </Canvas>
         </Canvas>
-
+        
         <Canvas x:Name="cvcatchtarget" ZIndex="90" HorizontalAlignment="Center" Height="64" Width="64" Margin="460,0,0,220" VerticalAlignment="Center" Opacity="0.88">
         </Canvas>
     </Grid>
-
 </Window>
